@@ -1,0 +1,337 @@
+/*
+#BE1E2D       red
+*/
+.bg-btn{background-color:#BE1E2D}
+.hd-color{color:#BE1E2D}
+.p-size{font-size:1.rem;text-align: center}
+
+/*...........costom margins .............*/
+.m-top{margin-top:100px;}
+.m-bot{margin-bottom:100px;}
+.my-top{margin-top:40px;}
+
+.p-top{padding-top:100px;}
+.p-bot{padding-bottom:100px;}
+.p-left{padding-left:300px;}
+
+
+body{overflow-x: hidden}
+
+/*...........top header .............*/
+
+header{
+	background-image:url(../images/bgc.jpg);
+	background-size: cover;
+	background-position:center center;
+	padding-bottom:30vh;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+
+/*...........nav bar .............*/
+
+.top-nav {
+	
+	
+}
+
+.baricon{color:white;font-size:35px;
+}
+.navbar-brand img{width:100px}
+
+@media (min-width: 768px) {
+	.navbar-brand img{width:200px;}
+}
+
+@media (max-width: 430px) {.my_name{font-size:41px!important;}}
+
+@media (max-width: 430px) {h3 span{font-size:18px!important;}}
+
+
+
+.navbar-nav .nav-link {
+	color:white;
+
+	font-weight: 500
+}
+.navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color:firebrick;
+	border-bottom:2px solid white
+}
+
+.navbg{background-color:black;}
+
+/*...........about us .............*/
+
+#nameh1{font-size:5.4rem;}
+
+#dp{width:150px;border-radius:50%;}
+
+
+
+.progressBar{
+        		position: relative;
+        		width: 100%;
+        		height: 20px;
+        		background: #eeeeee;
+        		margin-bottom: 20px;
+        		border-radius: 5px;
+        		box-shadow: 0 1px 2px #222;
+        	}
+        	
+.progress_value{
+				font-weight:bold;
+				color:crimson;
+				text-align:right;
+				width:100%;
+				
+        	}
+.progressmy{
+	
+        		height: 20px;
+        		position: absolute;
+        		border-radius: 5px;
+        		box-shadow: 2px 0 2px #555;
+				background-color:#BE1E2D;
+        	}
+        	
+.html{width:85%;}
+.css{width:75%;}
+.js{width:60%;}
+.react_js{width:35%;}
+.jquery{width:65%;}
+.bootstrap{width:70%;}
+.wordpress{width:60%;}
+.Jquery2{width:65%;}
+
+
+
+				/*...........filter portfoloi.............*/
+
+
+#po-img img{
+	width:100%;
+	position:relative;
+	
+	
+}
+
+#po-img p{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:#BE1E2D;
+	font-weight: bold;
+	display: none;
+}
+
+.col-md-4 .col-sm-12 mb-3{overflow: hidden;}
+
+#po-img:hover img{
+	opacity: .8;
+	transform: scale(1.03)
+}
+#po-img:hover p{
+	opacity: 1;
+	font-size:px;
+	color:white;
+	background-color:#BE1E2D;
+	padding:10px 20px;
+	text-align:center;
+	display: block;
+}
+
+/*...........lightbox plugin.............*/
+
+
+.centering{
+	max-width:1300px;
+	margin:50px auto;
+	text-align: left
+}
+
+.lightbox_overlay{
+	position: absolute;
+	top: 0;
+	left:0;
+	background: black;
+	opacity: 0.7;
+	z-index:999;
+	cursor: pointer;
+}
+
+.lightbox{
+	position: absolute;
+	background: white;
+	z-index: 1000;
+
+}
+
+.spinner{
+	position: absolute;
+	top:calc(50% - 25px);
+	left:calc(50% - 25px);
+	font-size: 50px;
+	-webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+.close{
+	position: absolute;
+	color:#fff;
+	font-size:30px;
+	cursor: pointer;
+	z-index:1001;
+}
+
+.next_img{
+	position: absolute;
+	color:#fff;
+	font-size:50px;
+	right:10px;
+	cursor: pointer;
+	z-index:1001;
+	opacity:0.9;
+}
+.next_img:hover{
+	opacity:1
+}
+
+.prev_img{
+	position: absolute;
+	color:#fff;
+	font-size:50px;
+	left:10px;
+	cursor: pointer;
+	z-index:1001;
+	opacity:0.9;
+}
+
+.prev_img:hover{
+	opacity:1;
+}
+
+
+
+/*...........services.............*/
+.bg-services{
+	background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/intro-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.faw{
+	font-size:60px;
+	color:#BE1E2D;
+	
+}
+
+/*...........CONTACT.............*/
+
+.bg-cont{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+
+.faw-cont{
+	font-size:40px;
+	color:#BE1E2D;
+	
+}
+.social-icon{
+	font-size:25px;
+	color:crimson;
+	padding:10px;
+	transition:all .5s;
+}
+.social-icon:hover{
+	color:#BE1E2D;
+}
+
+
+
+.top-fixed{
+	background-color:darkorange;
+	
+}
+
+
+
+
+/*---------Typewriter---------------*/
+h3 span{position:absolute;
+		animation:type 4s steps(18) infinite alternate;
+		overflow:hidden;
+		white-space:nowrap;
+		border-right:3px solid white;
+		width:0ch;
+		transform:translate(-50%,-50%);
+		font-size:26px;}
+
+			@keyframes type{
+		0%{
+			width:0ch;
+		   }
+		50%{
+			width:18ch;}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.to-top{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	font-size:30px;
+	color:#BE1E2D; 
+	display:none;
+}
+
+.mrg{margin-top:73px;}
+
+
+/*-------------Font------------------*/
+@font-face{font-family:Billabong;
+			src: url("Billabong"); }
+
+.stying_font{font-family:Billabong;
+				font-size:40px;
+				}
+				
+.my_fontz{font-family: 'Raleway', sans-serif;}
+.title_fontz{font-family: 'Playfair Display', serif;}
+.sub_title_fontz{font-family: 'Shalimar', cursive;}
+
+	.myfontss{font-family: 'Assistant', sans-serif;}
+
+
+
+
+
