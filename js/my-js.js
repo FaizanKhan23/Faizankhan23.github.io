@@ -73,7 +73,7 @@ $(document).ready(function()
 			}
 
 	});
-	
+
 	
 //--------- up arrow clicks slow scrol------------
   $("#top").click(function()
@@ -117,6 +117,9 @@ $(document).ready(function(){
     });
 
 });
+
+
+
 
  
 

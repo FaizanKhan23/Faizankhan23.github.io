@@ -15,7 +15,12 @@
 .p-left{padding-left:300px;}
 
 
-body{overflow-x: hidden}
+body{overflow-x: hidden;
+	}
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
 
 /*...........top header .............*/
 
@@ -225,6 +230,10 @@ header{
 	opacity:1;
 }
 
+.stying_font{
+	font-family: 'Parisienne', cursive!important;
+}
+
 
 
 /*...........services.............*/
@@ -270,40 +279,23 @@ header{
 .top-fixed{
 	background-color:darkorange;
 	
+	
 }
-
-
 
 
 /*---------Typewriter---------------*/
 h3 span{position:absolute;
-		animation:type 4s steps(18) infinite alternate;
+		animation:type 1s steps(8);
 		overflow:hidden;
 		white-space:nowrap;
 		border-right:3px solid white;
-		width:0ch;
+		width:13ch;
 		transform:translate(-50%,-50%);
 		font-size:26px;}
 
-			@keyframes type{
-		0%{
-			width:0ch;
-		   }
-		50%{
-			width:18ch;}
+		@keyframes type{
+		0%{width:0ch;}
 			}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .to-top{
 	position:fixed;
@@ -326,8 +318,6 @@ h3 span{position:absolute;
 				}
 				
 .my_fontz{font-family: 'Raleway', sans-serif;}
-.title_fontz{font-family: 'Playfair Display', serif;}
-.sub_title_fontz{font-family: 'Shalimar', cursive;}
 
 	.myfontss{font-family: 'Assistant', sans-serif;}
 
