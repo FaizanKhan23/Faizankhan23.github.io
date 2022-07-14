@@ -48,19 +48,10 @@ $(document).ready(function(){
 		var pos = $('#aboutus').offset().top-30;
 		$('html').animate({scrollTop:pos},1200);
 		return false;
-		
-		
-		
 	});
-
-	
 });
 
-
-
-
- 
- // .............scrol up up arrow.........
+// .............scrol up up arrow.........
 $(document).ready(function() 
 {
     $(window).scroll(function() {
